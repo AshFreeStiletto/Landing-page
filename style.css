@@ -89,7 +89,7 @@ button {
     max-width: 100px;
     height: 100px;
     border-radius: 10px;
-    border-color:#3882F6
+    border-color:#3882F6;
 }
 .info-text {
     display: flex;
@@ -117,3 +117,57 @@ button {
 .box-text {
     max-width: 150px;
 }
+.quote-container {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-top: -10px;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 900px;
+    margin-left: 200px;
+}
+.thor {
+    margin-top: 150px;
+    position: relative;
+    right: 250px;
+    top: 20px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.action-box {
+    min-width: 850px;
+    border-radius: 5px;
+    background-color:#3882F6;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 50px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+.button {
+    margin-right: 50px;
+    border: 2px solid #F9FAF8;
+}
+.under-text {
+    font-weight: 100;
+}
+
